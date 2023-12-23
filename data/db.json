@@ -1,0 +1,10 @@
+{
+    "products":[
+        {"id":1, "name":"HD Victus E-Tron","thumb":"/src/assets/victus.png", "sale_price": 3500, "original_price": 5400, "description":"Powerful laptop designed specifically for high-end gaming."},
+        {"id":2, "name":"Rose QuiteComfort", "thumb": "/src/assets/bose.png", "sale_price":1200, "original_price":2800, "description":"Accoustic Headphones for listening to music."},
+        {"id":3, "name":"April AirPods", "thumb": "/src/assets/airpods.png", "sale_price":400, "original_price":800, "description":"April EarPods, one of the most popular choices."},
+        {"id":4, "name":"R/T's 44\" LED", "thumb": "/src/assets/samsung.png", "sale_price":1400, "original_price":1600, "description":"LED designed for gamers by gamers."},
+        {"id":5, "name":"DeForce RTX 4090", "thumb": "/src/assets/rtx.png", "sale_price":3200, "original_price":4000, "description":"A GPU in it's own tier."},
+        {"id":6, "name":"Cyclone Oven", "thumb": "/src/assets/oven.png", "sale_price":300, "original_price":600, "description":"Best choice for microwaving quality food."}
+    ]
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Nanum+Myeongjo:wght@700&family=Poppins:wght@400;500;600;700&family=Roboto+Slab:wght@300&family=Young+Serif&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --faded-border: linear-gradient(to right, white, #e11d484d, white);
+}
+*{
+  -webkit-tap-highlight-color: transparent; /* For iOS Safari */
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.controls{
+  font-family: 'Nanum Myeongjo', serif;
+}
+.faded-borders{
+  border-image:var(--faded-border);
+  border-image-slice: 1;
+  border-top: none;
+}
+.gradient-shift{
+  background: linear-gradient(to right, #db2777,#fb7185);
+  transition: all 3s ease-in-out;
+}
+.gradient-shift:hover{
+  background: linear-gradient(to left, #db2777,#fb7185);
+}
+.section-heading{
+  font-size: 1.3rem;
+  line-height: 5px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width:640px){
+  .section-heading{
+    font-size: 1.2rem;
+  }
+}

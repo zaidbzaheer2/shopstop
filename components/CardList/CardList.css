@@ -1,0 +1,9 @@
+
+.x-custom-scroll::-webkit-scrollbar-thumb{
+    background:linear-gradient(to right, #db2777,#f43f5e,#fb7185);
+    border-radius: 100px;
+}
+
+.x-custom-scroll::-webkit-scrollbar{
+    height: 5px;
+}
