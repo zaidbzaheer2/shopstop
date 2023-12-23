@@ -1,6 +1,6 @@
 export {Header} from "./Header/Header"
 export {Hero} from "./Hero/Hero"
-export {Carousel} from "./Carousel/Carousel"
+
 export {Card} from "./Card/Card"
 export {CardList} from "./CardList/CardList"
 export {Footer} from "./Footer/Footer"

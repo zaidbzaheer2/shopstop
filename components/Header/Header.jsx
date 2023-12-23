@@ -1,5 +1,12 @@
 
-import { home, logo, search, cart, cart_default, sun, moon } from "../../src/assets/Sources"
+
+import home from "/src/assets/home_icon.png"
+import logo from "/src/assets/logo.png"
+import search from "/src/assets/search_icon.png"
+import cart from "/src/assets/cart.png"
+import cart_default from "/src/assets/cart_default.png"
+import sun from "/src/assets/sun.png"
+import moon from "/src/assets/moon.png"
 import { Link,NavLink } from "react-router-dom"
 import "./Header.css"
 export const Header = ({cart_tools, theme_tools}) =>{

@@ -1,9 +1,21 @@
 
 import "./Home.css"
-import { Carousel } from "../../components"
 import { Slick } from "../../components"
-import { electronics, toys, appliances, music, clothes, slides, stats } from "../../src/assets/Sources"
+// import { electronics, toys, appliances, music, clothes, slides, stats } from "../../src/assets/Sources"
 import games from "/src/assets/games.png"
+import electronics from "/src/assets/electronics.png"
+import toys from "/src/assets/toys.png"
+import appliances from "/src/assets/happliances.png"
+import music  from "/src/assets/music.png"
+import clothes from "/src/assets/clothes.png"
+import c1 from "/src/assets/c1.jpg"
+import c2 from "/src/assets/c2.jpg"
+import c3 from "/src/assets/c3.jpg"
+import c4 from "/src/assets/c4.jpg"
+import likes from "/src/assets/like.png"
+import reviews from "/src/assets/reviews.png"
+import sales from "/src/assets/sales.png"
+import ranking from "/src/assets/ranking.png"
 import { CardList } from "../../components"
 import { useFetch } from "../../Hooks/useFetch"
 import { Loading } from "../../components"
@@ -14,6 +26,8 @@ export const Home = ()=>{
         page_size:"6",
         sort_order:"default"
     }
+    const stats = [likes, reviews, sales, ranking]
+    const slides = [c1,c2,c3,c4]
     const categories = [[electronics, "Electronics"],[appliances, "Appliances"], [music, "Music"], [clothes, "Clothes"], [games, "Games"], [toys, "Toys"]]
     const [setURL, data,loading,error] = useFetch("https://fakestoreapi.com/products?limit=6")
     document.title= "Home"
